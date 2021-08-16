@@ -28,6 +28,14 @@ public class ListaDeInteiros {
 		}
 	}
 
+	public int getTamanho() {
+		return tamanho;
+	}
+	
+	public int getCapacidade() {
+		return capacidade;
+	}
+	
 	public void imprimir() {
 		System.out.print("\n[");
 		for (int i = 0; i < tamanho; i++) {
